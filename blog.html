@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DC computer website design-Mahendra Subedi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnecct" href="https://fonts.gststic.com">
+    <link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logoo.png" id="loooo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">APPLICATION</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+       <h1>Our Certificate & Online Programs </h1>
+
+    </section>
+    
+<!------------------------------------blog page content------------------------------------->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left"> 
+            <img src="images/certificate.jpg">
+            <h2>Our Certificate & Online Programs </h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, accusamus! Doloremque commodi delectus ratione asperiores voluptate atque ab ullam. Assumenda, quia dolorem eligendi officia fugit, molestiae, illo architecto velit deserunt sequi quas provident veniam excepturi ullam consectetur rerum! Dignissimos, odio.</p>
+            <br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, autem voluptatem exercitationem et doloribus eveniet culpa, aliquam nulla officiis, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse iste nulla pariatur veritatis error ex doloremque soluta? Corrupti, quidem cum! ullam dolorem beatae repellendus porro sunt enim consequuntur sed aperiam est ratione cum voluptates expedita voluptatum nesciunt? Ducimus soluta tempore aspernatur.</p>
+            <br><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae voluptatum, praesentium deleniti optio vero beatae repellendus, reiciendis ad laudantium animi perspiciatis? Vero recusandae quidem similique ex saepe! Voluptatum deleniti quod pariatur amet quasi, est hic ex incidunt ad odio tempore ullam et doloribus quaerat corporis.</p>
+            <br><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam delectus iste, animi nulla, nobis distinctio ducimus repellendus error temporibus aliquam esse commodi accusantium ex quis quas cumque laboriosam veritatis voluptatibus.</p>
+            <div class="comment-box">
+                <h3>Fill-up this Form</h3>
+                <form action="form handler.php" method="post" class="comment-form">
+                    <input type="text" name="name" placeholder="Enter Name">
+                    <input type="text" name="fathers name" placeholder="Enter Father's Name">
+                    <input type="text" name="phone number" placeholder="Enter Phone number">
+                    <input type="text" name="address" placeholder="Enter Address">
+                    <textarea  rows="5" name="message" Placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">SEND FORM</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right"> 
+        <h3>Post Categories</h3>
+        <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+        </div>
+        <div>
+            <span>Data Science</span>
+            <span>28</span>
+        </div>
+        <div>
+            <span>Machine Learning</span>
+            <span>15</span>
+        </div>
+        <div>
+            <span>Computer Science</span>
+            <span>34</span>
+        </div>
+        <div>
+            <span>AutoCAD</span>
+            <span>42</span>
+        </div>
+        </div>
+    </div>
+</section>
+
+
+<!--------------------------------footer--------------------------------->
+<section class="footer">
+<h4>About Us</h4>
+<p>We are the one and only old and expret knodledge provider of this place from some years and genereting qualified students by providing them well and good knowledge of computer basic, <br> computer diploma and english language. You can learn more about our courses in details above by clicking them.</p>
+
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+</div>
+<br>
+<P>Webpage Designer <i  id="my" class="fa fa-facebook"></i> <a  class="me" href="https://www.facebook.com/profile.php?id=100069606219830">Mahendra Subedi</a></P>
+</section>
+
+
+    <!--------------------------------------Javasctipt fo toggle menu-------------------------------------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+</body>
+</html>

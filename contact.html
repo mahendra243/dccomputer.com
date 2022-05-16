@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DC computer website design-Mahendra Subedi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnecct" href="https://fonts.gststic.com">
+    <link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logoo.png" id="loooo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">APPLICATION</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+       <h1>Contact Us</h1>
+    </section>
+    
+<!----------------------------------contactus ------------------------------>
+<section class="location">
+    
+
+
+</section>
+
+<section class="contact-us">
+    <center>
+  <table border cellspacing="0">
+      <caption>Co-Ordinators and their Contact</caption>
+      <tr>
+          <th>Branch</th>
+          <th>Co-ordinator</th>
+          <th>Contact</th>
+      </tr>
+      <tr>
+          <td>Hapure</td>
+          <td>Amit Dangi</td>
+          <td> <i class="fa fa-phone"></i> 9812855583</td>
+      </tr>
+      <tr>
+          <td>Khilatpur</td>
+          <td>Harikala Gharti</td>
+          <td>  <i class="fa fa-phone"></i> 9810921358</td>
+      </tr>
+      <tr>
+          <td>Hansapur</td>
+          <td>Sandip Bohora</td>
+          <td>  <i class="fa fa-phone"></i> 9829555851</td>
+      </tr>
+  </table>
+  </center>
+</section>
+
+<!--------------------------------footer--------------------------------->
+<section class="footer">
+<h4>About Us</h4>
+<p>We are the one and only old and expret knodledge provider of this place from some years and genereting qualified students by providing them well and good knowledge of computer basic, <br> computer diploma and english language. You can learn more about our courses in details above by clicking them.</p>
+
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+</div>
+<br>
+<P>Webpage Designer <i  id="my" class="fa fa-facebook"></i> <a class="me"  href="https://www.facebook.com/profile.php?id=100069606219830">Mahendra Subedi</a></P>
+</section>
+
+
+    <!--------------------------------------Javasctipt fo toggle menu-------------------------------------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+</body>
+</html>
